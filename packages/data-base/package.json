@@ -1,0 +1,12 @@
+{
+  "name": "data-base",
+  "version": "1.0.0",
+  "description": "The mongoDB for the Car Dash",
+  "main": "index.js",
+  "repository": "https://github.com/wesdevpro/PI-Dash",
+  "author": "Justin Groff <jj.groff.m@gmail.com>, Wesley Ford <wes@wesdev.pro>",
+  "license": "MIT",
+  "script": {
+    "proRun": "mongod"
+  }
+}
