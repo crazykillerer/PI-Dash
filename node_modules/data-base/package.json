@@ -1,12 +1,19 @@
 {
   "name": "data-base",
   "version": "1.0.0",
-  "description": "The mongoDB for the Car Dash",
-  "main": "index.js",
+  "type": "commonjs",
+  "main": "dbserver.js",
   "repository": "https://github.com/wesdevpro/PI-Dash",
   "author": "Justin Groff <jj.groff.m@gmail.com>, Wesley Ford <wes@wesdev.pro>",
   "license": "MIT",
-  "script": {
-    "proRun": "mongod"
+  "scripts": {
+    "dev": "nodemon dbserver.js",
+    "run": "node dbserver.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
   }
 }

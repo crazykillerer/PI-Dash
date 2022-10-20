@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "sensorName": "Left Front Pressure Sensor"
+    },
+    {
+        "id": 2,
+        "sensorName": "Right Front Pressure Sensor"
+    },
+    {
+        "id": 3,
+        "sensorName": "Left Back Pressure Sensor"
+    },
+    {
+        "id": 4,
+        "sensorName": "Right Back Pressure Sensor"
+    }
+]
