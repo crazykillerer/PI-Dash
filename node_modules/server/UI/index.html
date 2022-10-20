@@ -4,6 +4,7 @@
         <title>PI-Dash!</title>
         <meta charset="UTF-8" />
         <link href="./css/main.css" rel="stylesheet"/>
+        <script src="./js/jquery-3.6.1.min.js"></script>
     </header>
     <body>
         <nav></nav>
@@ -12,5 +13,14 @@
             <p>This is just a template for you to build on top of.</p>
         </main>
         <footer></footer>
+        <script>
+            $('p').click(() => {
+                alert('You clicked the paragaph');
+            });
+
+            $('p').dbclick(() => {
+                alert('You double clicked the paragaph');
+            });
+        </script>
     </body>
 </html>
