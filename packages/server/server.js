@@ -60,5 +60,5 @@ app.get('/exportData/:sensorId', (req, res) => {
 
 // Tells our server library (Express) to start listening for request from any client
 app.listen(PORT, () => {
-    console.log(`Listening on PORT:${PORT}`)
+    console.log(`Listening on PORT:${PORT}\n http://localhost:${PORT}`)
 })
